@@ -1,0 +1,25 @@
+.test {
+    height: 200px;
+    background-color: #eee;
+    text-align: center;
+
+}
+ul li {
+    background-color: #ccc;
+    margin: 10px;
+    list-style-position:outside ;
+}
+ul li:first-child {
+    list-style-position: inside;
+}
+ul li:nth-child(2)
+{
+    list-style-image: url(../4436481.png);
+}
+ul li:nth-child(3){
+    list-style-type:none; ;
+}
+table ,th ,td{
+    border: solid 2px red;
+    border-collapse: collapse
+}
